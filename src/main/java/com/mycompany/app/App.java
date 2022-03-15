@@ -3,7 +3,7 @@ package com.mycompany.app;
 /**
  * Hello world!
  */
-ddddpublic class App
+public class App
 {
 
     private final String message = "Hello Work!";
@@ -15,6 +15,9 @@ ddddpublic class App
     }
 
     private final String getMessage() {
+	while (true) {
+        	System.out.println("Running loop");
+   	 }
         return message;
     }
 
